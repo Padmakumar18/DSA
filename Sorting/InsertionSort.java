@@ -5,7 +5,7 @@ public class InsertionSort
     public static void main(String[] args)
     {
         int[] arr = {5,8,69,2,4990,8,107,2,10000};
-         System.out.println(Arrays.toString(kunal(arr)));
+         System.out.println(Arrays.toString(pk(arr)));
     }
 
     public  static int[] insertion_sort(int[] arr)
@@ -48,7 +48,7 @@ public class InsertionSort
         return  arr;
     }
 
-    public static int[] kunal(int[] arr)
+    public static int[] pk(int[] arr)
     {
         for (int i = 0; i < arr.length-1; i++) {
             for (int j = i+1; j > 0; j--) {
